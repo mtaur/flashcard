@@ -9,6 +9,12 @@ var BasicCard = require('./BasicCard.js').BasicCard;
 var divider = '-------------------------------';
 
 console.log(divider);
+console.log('sedgewick = new ClozeCard(\'Sedgewick Appleton\',\'Banana\');');
+console.log(divider);
+var fakeSedgewick = new ClozeCard('Sedgewick Appleton','Banana');
+console.log('');
+
+console.log(divider);
 console.log('sedgewick = new ClozeCard(\'Sedgewick Appleton\',\'Apple\');');
 console.log(divider);
 var sedgewick = new ClozeCard('Sedgewick Appleton','Apple');
